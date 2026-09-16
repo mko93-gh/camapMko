@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     #repoURL: https://github.com/CAMAP-APP/minikube-camap.git    # <= MODIFIER POUR POINTER VERS VOTRE REPO
-    repoURL: C:\Users\mko\Documents\dev\cyflo\CAMAP\minikube-camap
+    repoURL: https://github.com/mko93-gh/camapMko.git
     targetRevision: refs/heads/main
     path: deployments/camap
   destination:
