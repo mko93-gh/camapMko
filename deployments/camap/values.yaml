@@ -4,7 +4,7 @@ image:
     #tag: "latest"
     #pullPolicy: IfNotPresent
 
-    repository: https://github.com/mko93-gh/camapMko.git/deployments/camap/camap-ts
+    repository: https://github.com/mko93-gh/camap-ts
     tag: "local"
     pullPolicy: Never   # ne pas chercher sur un registry distant
 
@@ -13,7 +13,7 @@ image:
     #tag: "latest"
     #pullPolicy: IfNotPresent
 
-    repository: https://github.com/mko93-gh/camapMko.git/deployments/camap/camap-hx
+    repository: https://github.com/mko93-gh/camap-hx
     tag: "local"
     pullPolicy: Never   # ne pas chercher sur un registry distant
 
