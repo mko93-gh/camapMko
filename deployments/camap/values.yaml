@@ -3,19 +3,28 @@ image:
     #repository: ghcr.io/camap-app/camap-ts
     #tag: "latest"
     #pullPolicy: IfNotPresent
+    
+    #repository: camap-ts
+    #tag: "local"
+    #pullPolicy: Never   # ne pas chercher sur un registry distant
 
     repository: https://github.com/mko93-gh/camap-ts
-    tag: "local"
-    pullPolicy: Never   # ne pas chercher sur un registry distant
+    tag: "latest"
+    pullPolicy: IfNotPresent
 
+    
   web:
     #repository: ghcr.io/camap-app/camap-hx
     #tag: "latest"
     #pullPolicy: IfNotPresent
 
+    #repository: camap-hx
+    #tag: "local"
+    #pullPolicy: Never   # ne pas chercher sur un registry distant
+    
     repository: https://github.com/mko93-gh/camap-hx
-    tag: "local"
-    pullPolicy: Never   # ne pas chercher sur un registry distant
+    tag: "latest"
+    pullPolicy: IfNotPresent
 
   mysql:
     repository: mysql
